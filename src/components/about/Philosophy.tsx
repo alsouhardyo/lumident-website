@@ -58,7 +58,7 @@ export default function Philosophy() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="flex-1 relative w-full rounded-2xl overflow-hidden h-72 md:h-96"
+                            className="lg:flex-1 relative w-full rounded-2xl overflow-hidden h-72 md:h-96"
                         >
                             <Image
                                 src={item.image}
@@ -75,7 +75,7 @@ export default function Philosophy() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6, ease: "easeOut", delay: 0.15 }}
                             viewport={{ once: true }}
-                            className="flex-1 flex flex-col gap-4"
+                            className="lg:flex-1 flex flex-col gap-4"
                         >
                             <h3 className="font-manrope font-bold text-2xl md:text-3xl text-gray-900">
                                 {item.title}
